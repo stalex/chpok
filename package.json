@@ -1,0 +1,23 @@
+{
+  "name": "chpok",
+  "version": "0.0.0",
+  "description": "yet another react-redux starter kit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "StAlex",
+  "license": "ISC",
+  "dependencies": {
+    "ramda": "^0.26.1",
+    "react-redux": "^7.1.1",
+    "reactotron-react-js": "^3.3.4",
+    "redux": "^4.0.4",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-persist": "^6.0.0"
+  },
+  "devDependencies": {
+    "reactotron-redux": "^3.1.2",
+    "reactotron-redux-saga": "^4.2.2"
+  }
+}
