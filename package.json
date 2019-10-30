@@ -2,6 +2,8 @@
   "name": "chpok",
   "version": "0.0.0",
   "description": "yet another react-redux starter kit",
+  "homepage": "https://github.com/stalex/chpok",
+  "repository": "stalex/chpok",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
