@@ -1,7 +1,10 @@
 import React from 'react'
 import { Provider } from 'react-redux'
+import {ConnectedRouter} from 'connected-react-router'
+import {PersistGate} from 'redux-persist/integration/react'
 import createRStore from './store'
 import {history} from './router-reducer'
+
 
 const defaultLoading = () => (<div>Востановление сессии</div>)
 

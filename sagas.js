@@ -1,9 +1,7 @@
 import createSagaMiddleware from 'redux-saga'
 import { all, call, spawn } from 'redux-saga/effects'
 
-const sagaMonitor = reactotron.createSagaMonitor()
-
-export const sagaMiddleware = createSagaMiddleware({ sagaMonitor })
+export const sagaMiddleware = createSagaMiddleware()
 
 export const createRootSaga = (sagas) => function*() {
   yield all(
